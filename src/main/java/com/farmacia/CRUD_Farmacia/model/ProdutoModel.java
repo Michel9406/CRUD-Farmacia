@@ -19,7 +19,7 @@ import jakarta.validation.constraints.Size;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdutoModel {
 
-	@ManyToOne
+    @ManyToOne
 	@JsonIgnoreProperties("produtos")
 	private CategoriaModel categoriamodel;
 
