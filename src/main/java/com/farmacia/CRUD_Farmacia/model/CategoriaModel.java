@@ -18,7 +18,7 @@ public class CategoriaModel {
 	@Size(max = 255, message = "O atributo nome deve conter no mínimo 1 e no máximo 255 caracteres")
 	private String nome;
 
-	@Size(min = 5, max = 255, message = "O atributo descrição deve conter no mínimo 5 e no máximo 255 caracteres8")
+	@Size(min = 5, max = 255, message = "O atributo descrição deve conter no mínimo 1 e no máximo 255 caracteres8")
 	private String descricao;
 
 	public Long getId() {
@@ -44,5 +44,7 @@ public class CategoriaModel {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+
+
 
 }
