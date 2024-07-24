@@ -46,8 +46,8 @@ classificados por categorias. Este projeto implementa um CRUD completo para o re
 
 ## Exemplo de Categoria JSON 📄
 json<br>
-
+```bash
 {
-  "nome": "Medicamentos",<br>
-  "descricao": "Categoria para medicamentos de prescrição"<br>
+  "nome": "Medicamentos",
+  "descricao": "Categoria para medicamentos de prescrição"
 }
